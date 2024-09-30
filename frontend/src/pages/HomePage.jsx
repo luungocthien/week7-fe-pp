@@ -22,7 +22,7 @@ const Home = () => {
         setError(err.message);
       }
     };
-    setTimeout(() => {fetchJobs();}, 5000); // Delay of 5 second(s)
+    // setTimeout(() => {fetchJobs();}, 5000); // Delay of 5 second(s)
     fetchJobs();
   }, []);
 
